@@ -12,7 +12,7 @@
     <artifactId>user</artifactId>
 
     <dependencies>
-        <!-- eurekaclient 带netflix不需要在启动类上加注解 自动启动 -->
+        <!-- eurekaclient 带netflix不需要在启动类上加注解（重要） 自动启动 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
